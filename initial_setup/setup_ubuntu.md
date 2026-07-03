@@ -18,6 +18,8 @@
     sudo apt upgrade
     ```
 
+<div style="page-break-after: always;"></div>
+
 # Install Git
 
 1.  **[OPTIONAL IF YOU HAVE DONE IT RECENTLY] Update your package list**
@@ -66,6 +68,8 @@
     gh auth login
     gh auth setup-git
     ```
+
+<div style="page-break-after: always;"></div>
 
 # Setup Docker
 
