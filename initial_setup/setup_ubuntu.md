@@ -1,4 +1,4 @@
-# Update your system
+# Updating your system and other basic setup
 
 1.  **Make the computer find out what updates are available**
 
@@ -16,6 +16,24 @@
 
     ```bash
     sudo apt upgrade
+    ```
+
+4.  **Install other useful tools**
+
+    ```bash
+    sudo apt install -y \
+        build-essential \
+        curl \
+        wget \
+        vim \
+        python3-venv
+    ```
+
+5.  **Give yourself permission to program the ESP32 board**, then restart
+
+    ```bash
+    sudo usermod -aG dialout $USER
+    sudo reboot now
     ```
 
 <div style="page-break-after: always;"></div>
@@ -76,13 +94,13 @@
 > [!NOTE]
 > Taken from instructions on Docker's page: https://docs.docker.com/engine/install/ubuntu/
 
-1.  Remove old packages
+1.  **Remove old packages**
     
     ```bash
     sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
     ```
 
-2.  Setup Docker's apt repository
+2.  **Setup Docker's apt repository**
 
     ```bash
     # Add Docker's official GPG key:
@@ -105,20 +123,20 @@
     sudo apt update
     ```
 
-3.  Install Docker
+3.  **Install Docker**
 
     ```bash
     sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
     ```
 
-4.  Add yourself to the docker group and restart
+4.  **Add yourself to the docker group and restart**
 
     ```bash
     sudo usermod -aG docker $USER
     sudo reboot now
     ```
 
-5.  Test the Docker installation
+5.  **Test the Docker installation**
 
     ```bash
     docker run hello-world
