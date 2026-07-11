@@ -18,3 +18,4 @@ It would be a good idea to use the guides in the order they are presented here, 
 | 1 | [Post Ubuntu Setup](src/setup_ubuntu.md) | Instructions for setting up Ubuntu, including installing ROS2 and Docker. |
 | 2 | [USB Guide](src/usb.md) | Instructions for setting up USB access to the ESP32 on Ubuntu. |
 | 3 | [JR Bot Setup](src/jr_bot_setup.md) | Instructions for downloading the JR Bot code, uploading the firmware to the ESP32, and running the ROS2 code in a Docker container. |
+| 4 | [Resources](src/resources.md) | If you want to learn more. |
