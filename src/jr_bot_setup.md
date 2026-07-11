@@ -50,8 +50,8 @@ We only need two VS Code extensions:
     docker pull ghcr.io/jr-ros/jr_bot_host:amd64-v1.1.1
     ```
 
-    > [!TIP]
-    > This download takes time, so you can do other things while it is running.
+> [!TIP]
+> This download takes time, so you can do other things while it is running.
 
 2.  Create or change to the folder where you want to store JR Bot's code. For example, to create a folder named `jr_bot` in your home directory and change to it, run:
 
@@ -111,13 +111,13 @@ We only need two VS Code extensions:
 
 2.  When prompted, click **Reopen in Container** to open the project in a Dev Container. This will ensure that you have a consistent development environment with all the necessary dependencies installed.
 
-    > [!TIP]
-    > If you are not prompted, you can manually reopen the project in a Dev Container by pressing `Ctrl+Shift+P`, typing **Dev Containers: Reopen in Container**, and selecting it from the list.
+> [!TIP]
+> If you are not prompted, you can manually reopen the project in a Dev Container by pressing `Ctrl+Shift+P`, typing **Dev Containers: Reopen in Container**, and selecting it from the list.
 
 3.  When prompted, choose **Host PC** as the target for the Dev Container.
 
-    > [!INFO]
-    > The other option **SBC** is for running the code on a single-board computer (SBC) like a Raspberry Pi.
+> [!INFO]
+> The other option **SBC** is for running the code on a single-board computer (SBC) like a Raspberry Pi.
 
 4.  Wait for the Dev Container to build and start. This may take a few minutes, especially the first time you open it.
 
