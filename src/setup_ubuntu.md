@@ -11,6 +11,8 @@ This guide is for setting up a new Ubuntu system for development. Compatibility 
 | Debian | [NA] | | ✅ |  |
 | Linux Mint | [NA] | | ✅ |  |
 | Pop!_OS | [NA] | | ✅ |  |
+| Arch Linux | [NA] | |  |  |
+| Fedora | [NA] | |  |  |
 
 It is assumed that you have a working Ubuntu-like system with a user account that has sudo privileges. Please see their guidance for installing Ubuntu if you need help with that: https://ubuntu.com/desktop/docs/en/latest/tutorial/install-ubuntu-desktop/
 
