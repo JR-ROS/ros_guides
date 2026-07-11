@@ -1,3 +1,19 @@
+# Assumptions and Ubuntu installation
+
+This guide is for setting up a new Ubuntu system for development. Compatibility with various versions and variants:
+
+| OS | Version | Certainly works | Should work | Tested? |
+| --- | --- | --- | --- | --- |
+| Ubuntu | 26.04 LTS | ✅ |  | ✅ |
+| Ubuntu | 24.04 LTS | ✅ |  | ✅ |
+| Ubuntu | 22.04 LTS | | ✅ |  |
+| Ubuntu | 20.04 LTS | | ✅ |  |
+| Debian | [NA] | | ✅ |  |
+| Linux Mint | [NA] | | ✅ |  |
+| Pop!_OS | [NA] | | ✅ |  |
+
+It is assumed that you have a working Ubuntu-like system with a user account that has sudo privileges. Please see their guidance for installing Ubuntu if you need help with that: https://ubuntu.com/desktop/docs/en/latest/tutorial/install-ubuntu-desktop/
+
 # Updating your system and other basic setup
 
 1.  **Make the computer find out what updates are available**
