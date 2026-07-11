@@ -116,7 +116,7 @@ We only need two VS Code extensions:
 
 3.  When prompted, choose **Host PC** as the target for the Dev Container.
 
-> [!INFO]
+> [!NOTE]
 > The other option **SBC** is for running the code on a single-board computer (SBC) like a Raspberry Pi.
 
 4.  Wait for the Dev Container to build and start. This may take a few minutes, especially the first time you open it.
